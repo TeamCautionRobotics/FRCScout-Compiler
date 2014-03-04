@@ -9,10 +9,14 @@ public class DetailPanel extends JPanel {
 	private static final long serialVersionUID = 1542798734160584916L;
 	
 	private JLabel titleLabel;
+	
+	public JLabel queryLabel;
 
 	public DetailPanel(MainFrame mainFrame) {
 		super();
 		titleLabel = new JLabel("Title Here");add(titleLabel);
+		queryLabel = new JLabel();
+		add(queryLabel);
 	}
 
 }
